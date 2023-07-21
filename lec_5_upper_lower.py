@@ -1,4 +1,4 @@
-s = 'hello world'
+s = 'hEllo wOrLd'
 su = s.upper()
 sl = s.lower()
 
