@@ -1,12 +1,12 @@
 import numpy as np
 
-a = np.arange(0, 5 ,1)
+a = np.arange(1, 5 ,1)
 
 def new_func(a):
-    for i in range(0, 5, 1):
+    for i in range(1, 3, 1):
         x = 1
         x *= i
-        return x
+    return x
 
 
 print(new_func(a))
