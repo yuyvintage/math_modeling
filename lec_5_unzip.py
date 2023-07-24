@@ -3,4 +3,5 @@ def compress(*values):
 
 result = compress(1, 5, 7, 8, 9)
 print('compress:', result)
-print('extracted:', *result)
+
+print('extracted:', *values)
